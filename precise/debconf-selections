@@ -1,0 +1,11 @@
+console-setup   console-setup/codeset47 select  . Combined - Latin; Slavic Cyrillic; Greek
+console-setup   console-setup/fontface47        select  Fixed
+console-setup   console-setup/fontsize-text47   select  16
+console-setup   console-setup/charmap47 select  UTF-8
+keyboard-configuration  console-setup/detect    detect-keyboard
+keyboard-configuration  console-setup/detected  note
+console-setup   console-setup/codesetcode       string  Uni2
+keyboard-configuration  console-setup/ask_detect        boolean false
+console-setup   console-setup/store_defaults_in_debconf_db      boolean true
+console-setup   console-setup/fontsize-fb47     select  16
+console-setup   console-setup/fontsize  string  16
